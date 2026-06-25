@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reel Pretty Blooms</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: #fffaf7;
+      color: #333;
+    }
+
+    .hero {
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6") center/cover;
+      padding: 20px;
+    }
+
+    .hero-overlay {
+      background: rgba(255,255,255,0.7);
+      padding: 30px;
+      border-radius: 15px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #f7c6d0;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      padding-top: 20px;
+    }
+
+    .grid img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+    <div class="hero-overlay">
+      <h1>Reel Pretty Blooms</h1>
+      <p>Soft coastal floral arrangements made with love</p>
+      <a class="btn" href="#gallery">View Blooms</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>Our Story</h2>
+    <p>Coastal-inspired floral designs blending soft romance and beachside charm.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <img src="https://images.unsplash.com/photo-1526045478516-99145907023c">
+      <img src="https://images.unsplash.com/photo-1508610048659-a06b669e3321">
+      <img src="https://images.unsplash.com/photo-1520763185298-1b434c919102">
+      <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21">
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: hello@reelprettyblooms.com</p>
+  </section>
+
+</body>
+</html>
